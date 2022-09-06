@@ -52,6 +52,7 @@ def getWeather():
         h.config(text=humidity)
         d.config(text=description)
         p.config(text=pressure)
+        
     except Exception as e:
         messagebox.showerror("Weather App","Invaild Entry !!!")
 
